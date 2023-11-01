@@ -1,0 +1,25 @@
+/*
+  Display Property:
+    - block
+    - inline
+    - inline-block
+    - flex
+    - grid
+*/
+body {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  border: 1px solid red;
+  /* display: inline-block; */
+  width: 100px;
+  text-align: center;
+}
+
+.div-4 {
+  /* position: absolute;
+  top: 10px; */
+}
